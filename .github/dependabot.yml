@@ -8,8 +8,12 @@ updates:
   - package-ecosystem: "nuget"
     directory: "Rileysoft.ShiftJIS/Rileysoft.ShiftJIS"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    commit-message:
+      prefix: "Dependencies: "
   - package-ecosystem: "nuget"
     directory: "Rileysoft.ShiftJIS/Rileysoft.ShiftJIS.Tests"
     schedule:
-      interval: "weekly"
+      interval: "daily"
+    commit-message:
+      prefix: "Dependencies: "
