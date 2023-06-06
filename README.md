@@ -2,7 +2,7 @@
 An older encoding which uses 2 bytes to describe a character. This was added due to the lack of Code Page 932 support for .NET 6.0.
 
 ## Usage
-- Install from nuget
+- Install the ``Rileysoft.ShiftJIS`` package from nuget
 - Use the following code sample:
 
 ```cs
